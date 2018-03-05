@@ -106,7 +106,7 @@ pred = np.zeros((np.shape(z0)[0], 1), dtype=np.int32)
 for i in range(0, np.shape(z0)[0]):
     for j in range(0, np.shape(z0)[1]):
         if (z[i][0] == z0[i][j]):
-            pred[i, 0] = j + 1
+            pred[i, 0] = j 
 pred = tf.Variable(pred, tf.int32)
 init = tf.global_variables_initializer()
 sess.run(init)
