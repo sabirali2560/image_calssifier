@@ -112,7 +112,7 @@ init = tf.global_variables_initializer()
 sess.run(init)
 y_tc = tf.placeholder(tf.int32, [None, 1])
 accuracy = tf.reduce_mean(tf.cast(tf.equal(pred, y_tc), tf.float32))
-print('The accuracy on the test set is:', sess.run(accuracy, feed_dict={x: X, y_: y, y_tc: Y_}))
+print('The accuracy on the training set is:', sess.run(accuracy, feed_dict={x: X, y_: y, y_tc: Y_}))
 
 
 
