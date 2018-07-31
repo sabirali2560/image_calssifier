@@ -9,15 +9,15 @@ IMAGE CLASSIFIER:
       motorpix,motortestpix are used for resizing and generating training,test data in the form of pixels.
        
         
-      #programming language used - python
+ #programming language used -: python
       
-      #libraries and API's used - Keras,opencv,matplotlib,sklearn,etc.
+ #libraries and API's used -: Keras,opencv,matplotlib,sklearn,etc.
 
 
  
-      #Steps you should follow to use the image classifier-
+  #Steps you should follow to use the image classifier -:
                         
-                        * As of now since this repository contains only the backend code you can just simply paste the adress of your image
+     As of now since this repository contains only the backend code you can just simply paste the adress of your image
                           in the image_classifier.ipynb python script by assigning it to the variable img_path and run the script.
     
 
